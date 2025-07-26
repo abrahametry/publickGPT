@@ -1,0 +1,61 @@
+Abstract
+Ornaments have long been cherished by women throughout history. Both men and women across the globe use ornaments extensively and with joy. However, many people, especially foreigners visiting Asian countries, struggle to identify the names and categories of specific ornaments. To address this issue, an automated system is essential, particularly for supermarkets, to assist customers in recognizing ornament categories. This article presents a dataset of 1,220 images featuring six types of Asian ornaments, designed to aid researchers in ornament classification and identification. While machine and deep learning systems currently face challenges during training due to issues like low contrast and image quality, this article introduces a new dataset of six popular Asian ornaments collected from remote areas of Bangladesh, where they are highly favoured by the Bengali community. The dataset includes images of Bengals, Rings, Earrings, Tikka, Necklaces, and Payel, captured from both remote areas and local markets. By incorporating samples from various locations, the dataset aims to enhance diversity and improve the robustness of the classification models.
+
+SPECIFICATIONS TABLE
+
+Subject	 Computer Vision, Computer
+Specific subject area	Computer Vision, Image Processing, and Image Classification.
+Type of data	 Image, Processed.
+Data collection	The dataset contains six types of different ornaments from one distinct district of Bangladesh, offering a rich resource for research and analysis. The images of Bengals, Rings, Earrings, Tikka, Necklaces, and Payel that make up the dataset were all taken at the nearby markets and in the remote countryside. Realme Narzo 20 pro and Realme Narzo 50 were used to take pictures. The images are taken at ambient temperatures between 25°C and 28°C to preserve their originality and hue. We took pictures of the ornaments from several perspectives to accurately depict the real-world situation. 1220 images compose the collection; each image's lighting and angle are adjusted to precisely capture the distinctive qualities of each ornament.
+Data source location	The data was collected from Mirpur, Dhaka. Mirpur is a well-known area located in Dhaka, the capital city of Bangladesh. Here are the approximate coordinates and latitude of Mirpur, Dhaka.
+ Latitude: 23.8103° N
+Longitude: 90.4125° E
+All the images were taken from some specific area of Mirpur including Mirpur-1, Mirpur-10 and Mirpur-11.
+Data accessibility	Repository name:  Asian Ornaments 
+Data identification number: none 
+Direct URL to data: https://www.kaggle.com/datasets/darun04/asian-ornaments
+Related research article	none
+
+VALUE OF THE DATA
+•	The dataset offers a wide variety of Asian ornaments from diverse cultural backgrounds, making it valuable for studying and preserving traditional jewellery designs.
+•	 It contains 1,220 high-resolution images, essential for training, validating, and testing machine learning models, particularly for ornament classification tasks.
+•	Researchers can use this dataset to improve image classification models, enabling more accurate recognition and differentiation of various ornament types.
+•	The dataset contributes to the digital preservation of traditional Asian ornaments, ensuring culturally significant designs are preserved over time.
+•	It supports research in computer vision and deep learning, specifically in fine-grained visual categorization, crucial for enhancing AI-based ornament recognition.
+•	Publicly available on Kaggle, the dataset encourages global collaboration, allowing researchers to advance their work in ornament classification and cultural heritage preservation.
+BACKGROUND
+The objective of gathering the dataset was to address the gap in ornaments identification systems for local ornaments in Bangladesh and Asia. The dataset contains six types of different ornaments from one distinct district of Bangladesh including Bengals, Rings, Earrings, Tikka, Necklaces, and Payel. These ornaments are rarely available in the world ornaments classification database, and researchers frequently encounter them. The researcher can utilise this data to encourage people to use their favourite ornaments.  Another objective of preparing the dataset is to fulfil the substantial need for feature engineering and classification algorithms in computer vision and machine learning contexts [1]. This dataset aims to improve ornaments classification performance, particularly in art and design fields, by providing diverse and high-quality images for utilising machine and deep learning algorithms[2, 3]. It also facilitates the evaluation of model performance across different architectures, like MobileNet, VGG-19, and Inception-V3. Moreover, this dataset complements existing research articles by enabling a comprehensive analysis of Asian ornament classification, which could lead to practical applications like automated sorting systems and real-time identification tools.
+DATA DESCRIPTION
+The dataset in this study includes a comprehensive collection of images featuring six different types of ornaments of Asia. Those ornaments have some common names in Bengali. Table 1 depicts the classification of ornaments data saved in the data repository. The total training images are 1220. The total number of training and testing images are 978 and 242, respectively.
+Table 1. Number of training, testing ornament data.
+Vehicle Names	Training	Testing
+Bengal	184	46
+Ring	160	40
+Earring	222	53
+Tikka	128	32
+Necklace	180	45
+Payel	104	26
+
+Figure 1 depicts the six types of ornaments that greatly influenced women daily life. The dataset representation on Kaggle repository is shown in figure 2, where the size of the data is 2.32 GB. The dataset is available on Kaggle under the title “Asian Ornaments”.
+
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 1. Sample images of ornaments dataset.
+ 	 
+Figure 2. Representation of ornaments data on Kaggle.
+Figure 3 shows the graphical representation of our data distribution. The number of images for each type of ornament is collected in unequal quantities. Earring images are the most abundant, with 275 in total, while Payel images are the fewest, with only 130. The number of images for other ornaments falls in between, around 200.
+ 
+Figure 3. Distribution of the ornament dataset.
+The pixel-wise height and width of the dataset are shown in figure 4. This distribution graph illustrates the frequency of images in terms of pixel dimensions.  Additionally, figure 5 describes the pixel intensity, ranging from 0 to 255, for all six ornaments with respect to their frequency. 
+ 
+Figure 4. Weight and height distribution of the ornament dataset.
+ 
+Figure 5. Pixel Intensity Distribution of four type of ornament.
+EXPERIMENTAL DESIGN, MATERIALS AND METHODS
+The dataset comprises 1,220 images of Asian ornaments collected from various offline sources, shops, and private collections. The images were curated to represent six distinct classes: Necklaces, Tikka, Earrings, Rings, Bangles, and Payel. The collection process ensured a diverse representation of styles and designs, encompassing both traditional and contemporary ornamentations. Each image was manually collected with its corresponding class by a team of experts familiar with Asian jewellery to ensure accurate categorization. The annotations were verified through multiple rounds of cross-checking to minimize errors and improve dataset reliability[4]. Several state-of-the-art convolutional neural networks (CNNs) were selected for the classification task, including DensNet-201, ResNet-50, VGG-16, InceptionV3, and VGG-19 [5]. The figure 6 shows how the dataset was processed for six of the ornaments: Necklaces, Tikka, Earrings, Rings, Bangles, and Payel. The image link essentially selects different types of ornaments to form the initial sample set. Smartphone cameras took ornament images. The dataset contains 1220 images in total, out of which 976 are separated for training. This workflow is designed to efficiently categorize the dataset and use it as a foundation for further analysis or machine learning applications [6].
+ 
+Figure 6. Data collection and Representation Procedures.
